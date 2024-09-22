@@ -394,7 +394,7 @@ header.major h2:after {
     margin: 0 0 2em 0;
 }
 
-.spotlight .image {
+.image {
     display: inline-block;
     margin-left: 4em;
     padding: 0.65em;
@@ -402,10 +402,10 @@ header.major h2:after {
     border: solid 1px;
 }
 
-.spotlight .image img {
+.image img {
     display: block;
     border-radius: 100%;
-    width: 16em;
+    width: 8em;
 }
 
 @media screen and (max-width: 980px) {
@@ -439,7 +439,7 @@ header.major h2:after {
         width: calc(100% + 1em);
     }
 
-    .spotlight .image {
+    .image {
         -moz-flex: 0 1 auto;
         -webkit-flex: 0 1 auto;
         -ms-flex: 0 1 auto;
@@ -451,18 +451,16 @@ header.major h2:after {
 }
 
 @media screen and (max-width: 736px) {
-
-    .spotlight .image {
+    .image {
         padding: 0.35em;
     }
 
-    .spotlight .image img {
-        width: 12em;
+    .image img {
+        width: 5em;
     }
-
 }
 
-.spotlight .image {
+.image {
     border-color: rgba(255, 255, 255, 0.35);
 }
 
@@ -475,4 +473,8 @@ header.major h2:after {
 .citation {
     font-size: 1.25em;
     letter-spacing: -0.025em;
+}
+
+section.main .row {
+    text-align: justify;
 }
