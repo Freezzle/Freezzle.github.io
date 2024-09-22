@@ -402,10 +402,10 @@ body {
     -ms-overflow-style: scrollbar;
     color: rgba(255, 255, 255, 0.65);
     background-color: #6ab5c6;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(-45deg, #6ab5c6 0%, #f4cf8b 100%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(-45deg, #6ab5c6 0%, #f4cf8b 100%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(-45deg, #6ab5c6 0%, #f4cf8b 100%);
-    background-image: url("images/overlay.png"), linear-gradient(-45deg, #6ab5c6 0%, #f4cf8b 100%);
+    background-image: url("images/overlay.png"), -moz-linear-gradient(-45deg, #6ab5c6 10%, #ffce5e 90%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(-45deg, #6ab5c6 10%, #ffce5e 90%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(-45deg, #6ab5c6 10%, #ffce5e 90%);
+    background-image: url("images/overlay.png"), linear-gradient(-45deg, #6ab5c6 10%, #ffce5e 90%);
 }
 
 
@@ -2826,69 +2826,46 @@ table.alt tbody tr td {
 /* Header */
 
 #header {
-    padding: 2em 5em 1em 5em;
+    padding: 1em 0 0 0;
     text-align: center;
 }
 
-#header h1 {
-    margin: 0 0 0.25em 0;
-}
-
-#header p {
-    font-size: 1.25em;
-    letter-spacing: -0.025em;
-}
-
-#header.alt h1 {
-    font-size: 3.25em;
+#header img {
+    width:100%;
 }
 
 @media screen and (max-width: 1280px) {
 
     #header {
-        padding: 1em 4em 0.1em 4em;
+        padding: 1em 0 0 0;
     }
 }
 
 @media screen and (max-width: 980px) {
 
     #header {
-        padding: 1em 3em 0.1em 3em;
+        padding: 1em 0 0 0;
     }
 }
 
 @media screen and (max-width: 736px) {
 
     #header {
-        padding: 1em 2em 0.1em 2em;
+        padding: 1em 0 0 0;
     }
-
-    #header p {
-        font-size: 1em;
-        letter-spacing: 0;
-    }
-
-    #header p br {
-        display: none;
-    }
-
-    #header.alt h1 {
-        font-size: 2.5em;
-    }
-
 }
 
 @media screen and (max-width: 480px) {
 
     #header {
-        padding: 0.75em 1.5em 0.1em 1.5em;
+        padding: 0.75em 0 0 0;
     }
 }
 
 @media screen and (max-width: 360px) {
 
     #header {
-        padding: 0.5em 1em 0.1em 1em;
+        padding: 0.5em 1em 0 1em;
     }
 }
 
