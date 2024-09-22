@@ -479,6 +479,10 @@ header.major h2:after {
     letter-spacing: -0.025em;
 }
 
+section.main .row {
+    text-align: left;
+}
+
 section.main .explanation {
     text-align: left;
 }
