@@ -479,14 +479,10 @@ header.major h2:after {
     letter-spacing: -0.025em;
 }
 
-section.main .row {
-    text-align: justify;
-}
-
 section.main .explanation {
     text-align: left;
 }
 
 section.main .explanation p {
-    margin: 0 0 0 0;
+    margin: 0 0 0.5em 0;
 }
