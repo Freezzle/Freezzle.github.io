@@ -282,8 +282,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 #main > .main {
-    padding: 5em 5em 3em 5em;
-    border-top: solid 1px #dddddd;
+    padding: 3em 5em 3em 5em;
 }
 
 #main > .main:first-child {
@@ -309,7 +308,7 @@ footer, header, hgroup, menu, nav, section {
 @media screen and (max-width: 1280px) {
 
     #main > .main {
-        padding: 4em 4em 2em 4em;
+        padding: 2em 4em 2em 4em;
     }
 
     #main > .main > .image.main:first-child {
@@ -322,7 +321,7 @@ footer, header, hgroup, menu, nav, section {
 @media screen and (max-width: 980px) {
 
     #main > .main {
-        padding: 4em 3em 2em 3em;
+        padding: 2em 3em 2em 3em;
     }
 
     #main > .main > .image.main:first-child {
@@ -335,7 +334,7 @@ footer, header, hgroup, menu, nav, section {
 @media screen and (max-width: 736px) {
 
     #main > .main {
-        padding: 3em 2em 1em 2em;
+        padding: 1em 2em 1em 2em;
     }
 
     #main > .main > .image.main:first-child {
@@ -348,7 +347,7 @@ footer, header, hgroup, menu, nav, section {
 @media screen and (max-width: 480px) {
 
     #main > .main {
-        padding: 3em 1.5em 1em 1.5em;
+        padding: 1em 1.5em 1em 1.5em;
     }
 
     #main > .main > .image.main:first-child {
@@ -365,7 +364,7 @@ footer, header, hgroup, menu, nav, section {
     }
 
     #main > .main {
-        padding: 2.5em 1em 0.5em 1em;
+        padding: 0.75em 1em 0.5em 1em;
     }
 
     #main > .main > .image.main:first-child {
