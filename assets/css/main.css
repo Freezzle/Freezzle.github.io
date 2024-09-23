@@ -50,7 +50,6 @@ footer, header, hgroup, menu, nav, section {
 #main {
     background-color: #ffffff;
     color: #636363;
-    border-radius: 0.25em;
 }
 
 #main input, #main select, #main textarea {
@@ -2826,46 +2825,20 @@ table.alt tbody tr td {
 /* Header */
 
 #header {
-    padding: 1em 0 0 0;
+    padding: 0 0 0 0;
     text-align: center;
 }
 
 #header img {
     width:100%;
+    margin-bottom: -0.5em;
 }
 
-@media screen and (max-width: 1280px) {
-
-    #header {
-        padding: 1em 0 0 0;
-    }
-}
-
-@media screen and (max-width: 980px) {
-
-    #header {
-        padding: 1em 0 0 0;
-    }
-}
-
-@media screen and (max-width: 736px) {
-
-    #header {
-        padding: 1em 0 0 0;
-    }
-}
-
-@media screen and (max-width: 480px) {
-
-    #header {
-        padding: 0.75em 0 0 0;
-    }
-}
 
 @media screen and (max-width: 360px) {
 
     #header {
-        padding: 0.5em 1em 0 1em;
+        padding: 0 1em 0 1em;
     }
 }
 
