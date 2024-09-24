@@ -247,7 +247,7 @@ header.major {
 }
 
 header.major h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     position: relative;
     border-top: solid 5px #ffce5e;
     text-align: center;
@@ -546,6 +546,7 @@ header.major h2:after {
     width: 8em;
     height: 8em;
     border-radius: 50%;
+    border: 2px solid #e7eae8;
 }
 
 .citation {

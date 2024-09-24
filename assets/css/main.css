@@ -2837,7 +2837,7 @@ table.alt tbody tr td {
 @media screen and (max-width: 360px) {
 
     #header {
-        padding: 0 1em 0 1em;
+        padding: 0 0 0 0;
     }
 }
 
