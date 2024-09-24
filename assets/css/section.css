@@ -247,7 +247,7 @@ header.major {
 header.major h2 {
     font-size: 3em;
     position: relative;
-    border-top: solid 5px #e7eae8;
+    border-top: solid 5px #ffce5e;
     text-align: center;
     margin: 0 0 1.5em 0;
     top: 0.775em;
@@ -257,7 +257,7 @@ header.major h2 span {
     background: #fff;
     position: relative;
     display: inline-block;
-    border: solid 5px #e7eae8;
+    border: solid 5px #ffce5e;
     top: -1em;
     padding: 0 1.25em 0 1.25em;
     text-transform: uppercase;
@@ -271,7 +271,7 @@ h3.subtitle {
     header.major h2 {
         font-size: 2em;
         position: relative;
-        border-top: solid 3px #e7eae8;
+        border-top: solid 3px #ffce5e;
         text-align: center;
         margin: 0 0 1.5em 0;
         top: 0.775em;
@@ -281,7 +281,7 @@ h3.subtitle {
         background: #fff;
         position: relative;
         display: inline-block;
-        border: solid 3px #e7eae8;
+        border: solid 3px #ffce5e;
         top: -1em;
         padding: 0 0.5em 0 0.5em;
         text-transform: uppercase;
