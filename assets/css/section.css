@@ -294,7 +294,7 @@ h3.subtitle {
     }
 
     header.major h2 {
-        font-size: 2em;
+        font-size: 1.5em;
         border-top: solid 3px #ffce5e;
         margin: 0 0 1.5em 0;
         top: 0.775em;
@@ -356,10 +356,6 @@ footer.major {
 @media screen and (max-width: 736px) {
     header.major {
         margin-bottom: 0;
-    }
-
-    header.major h2 {
-        font-size: 2em;
     }
 
     header.major p {
