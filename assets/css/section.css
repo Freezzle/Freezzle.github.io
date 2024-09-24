@@ -471,16 +471,14 @@ header.major h2:after {
 
 .image {
     display: inline-block;
-    margin-left: 4em;
     padding: 0.65em;
     border-radius: 100%;
-    border: solid 1px;
 }
 
 .image img {
     display: block;
     border-radius: 100%;
-    width: 8em;
+    width: 6em;
 }
 
 @media screen and (max-width: 980px) {
@@ -520,7 +518,6 @@ header.major h2:after {
         -ms-flex: 0 1 auto;
         flex: 0 1 auto;
         margin-left: 0;
-        margin-bottom: 2em;
     }
 
 }
@@ -540,8 +537,8 @@ header.major h2:after {
 }
 
 .logo-bubble {
-    width: 8em;
-    height: 8em;
+    width: 6em;
+    height: 6em;
     border-radius: 50%;
     border: 2px solid #e7eae8;
 }
@@ -552,11 +549,11 @@ header.major h2:after {
 }
 
 section.main .row {
-    text-align: justify;
+    text-align: left;
 }
 
 section.main .explanation {
-    text-align: justify;
+    text-align: left;
 }
 
 section.main .explanation p {
