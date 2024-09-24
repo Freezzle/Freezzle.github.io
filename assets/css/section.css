@@ -266,8 +266,8 @@ header.major h2 span {
 }
 
 h3.subtitle {
-    background-color: #e7eae8;
-    border: 2px solid #e1e4e2;
+    background-color: #f9dce2;
+    border: 2px solid #f9dce2;
 }
 
 @media screen and (max-width: 1280px) {
