@@ -242,6 +242,8 @@ section.special, article.special {
 
 header.major {
     margin-bottom: 3em;
+    margin-left: -5em;
+    margin-right: -5em;
 }
 
 header.major h2 {
@@ -267,7 +269,30 @@ h3.subtitle {
     border-bottom: 5px solid #e7eae8;
 }
 
+@media screen and (max-width: 1280px) {
+
+    header.major {
+        margin-left: -4em;
+        margin-right: -4em;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+
+    header.major {
+        margin-left: -3em;
+        margin-right: -3em;
+    }
+}
+
 @media screen and (max-width: 736px) {
+
+    header.major {
+        margin-left: -2em;
+        margin-right: -2em;
+    }
+
     header.major h2 {
         font-size: 2em;
         position: relative;
@@ -290,6 +315,22 @@ h3.subtitle {
     h3.subtitle {
         border-bottom: 3px solid #e7eae8;
     }
+}
+
+@media screen and (max-width: 480px) {
+
+    header.major {
+        margin-left: -1.5em;
+        margin-right: -1.5em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header.major {
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+
 }
 
 section.special header.major h2:after, article.special header.major h2:after {
