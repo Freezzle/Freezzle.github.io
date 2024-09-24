@@ -247,7 +247,7 @@ header.major {
 }
 
 header.major h2 {
-    font-size: 3em;
+    font-size: 2em;
     position: relative;
     border-top: solid 5px #ffce5e;
     text-align: center;
@@ -324,7 +324,6 @@ h3.subtitle {
         margin-left: -1em;
         margin-right: -1em;
     }
-
 }
 
 section.special header.major h2:after, article.special header.major h2:after {
