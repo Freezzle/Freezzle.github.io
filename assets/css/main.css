@@ -2853,7 +2853,7 @@ body.is-preload #header.alt > * {
     width: 64em;
     max-width: calc(100% - 4em);
     padding: 0.5em;
-    background-color: #f9dce2;
+    background-color: #92d1df;
     cursor: default;
     text-align: center;
 }
@@ -2916,7 +2916,7 @@ body.is-preload #header.alt > * {
 }
 
 #nav ul li a:hover {
-    background-color: #ffa1b0;
+    background-color: #b7e5ef;
 }
 
 #nav ul li a.active {
@@ -2928,7 +2928,7 @@ body.is-preload #header.alt > * {
     position: fixed;
     top: 0;
     padding: 0.5em 1em;
-    background-color: #f9dce2;
+    background-color: #92d1df;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     z-index: 10000;
