@@ -541,6 +541,7 @@ header.major h2:after {
     height: 6em;
     border-radius: 50%;
     border: 2px solid #e7eae8;
+    object-fit: cover; /* ou contain selon l'effet souhaité */
 }
 
 .citation {
