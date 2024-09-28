@@ -249,7 +249,7 @@ header.major {
 header.major h2 {
     font-size: 1.75em;
     position: relative;
-    border-top: solid 5px #ffce5e;
+    border-top: solid 5px rgba(255, 206, 94, 0.75);
     text-align: center;
     margin: 0 0 1.5em 0;
     top: 0.775em;
@@ -259,15 +259,15 @@ header.major h2 span {
     background: #fff;
     position: relative;
     display: inline-block;
-    border: solid 5px #ffce5e;
+    border: solid 5px rgba(255, 206, 94, 0.75);
     top: -1em;
     padding: 0 1.25em 0 1.25em;
     text-transform: uppercase;
 }
 
 h3.subtitle {
-    background-color: #b2e1ec;
-    border: 2px solid #a9e2ef;
+    background-color: rgba(255, 206, 94, 0.25);
+    border: 1px solid rgba(255, 206, 94, 0.75);
 }
 
 @media screen and (max-width: 1280px) {
@@ -296,13 +296,13 @@ h3.subtitle {
 
     header.major h2 {
         font-size: 1.5em;
-        border-top: solid 3px #ffce5e;
+        border-top: solid 3px rgba(255, 206, 94, 0.75);
         margin: 0 0 1.5em 0;
         top: 0.775em;
     }
 
     header.major h2 span {
-        border: solid 3px #ffce5e;
+        border: solid 3px rgba(255, 206, 94, 0.75);
         top: -1em;
         padding: 0 0.5em 0 0.5em;
     }
