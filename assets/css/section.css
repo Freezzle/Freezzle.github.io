@@ -249,7 +249,7 @@ header.major {
 header.major h2 {
     font-size: 1.75em;
     position: relative;
-    border-top: solid 5px rgba(255, 206, 94, 0.75);
+    border-top: solid 5px rgba(106, 181, 198, 0.50);
     text-align: center;
     margin: 0 0 1.5em 0;
     top: 0.775em;
@@ -259,7 +259,7 @@ header.major h2 span {
     background: #fff;
     position: relative;
     display: inline-block;
-    border: solid 5px rgba(255, 206, 94, 0.75);
+    border: solid 5px rgba(106, 181, 198, 0.50);
     top: -1em;
     padding: 0 1.25em 0 1.25em;
     text-transform: uppercase;
