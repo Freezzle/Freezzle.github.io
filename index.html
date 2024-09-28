@@ -182,58 +182,5 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <script>
-        // Séquence de touches requise
-        const requiredSequence = [1, 1, 0, 4, 2, 0, 2, 3];
-        let enteredSequence = [];
-
-        // Fonction pour créer un cœur
-        function createHeart() {
-            const heart = document.createElement('div');
-            heart.classList.add('heart');
-
-            // Position aléatoire sur la page
-            const x = Math.random() * window.innerWidth;
-            const y = Math.random() * window.innerHeight;
-
-            // Appliquer la position aléatoire
-            heart.style.left = `${x}px`;
-            heart.style.top = `${y}px`;
-
-            // Ajouter le cœur dans le conteneur
-            document.getElementById('hearts-container').appendChild(heart);
-
-            // Supprimer le cœur après un certain temps
-            setTimeout(() => {
-                heart.remove();
-            }, 5000); // Cœurs disparaissent après 5 secondes
-        }
-
-        // Fonction pour vérifier la séquence de touches
-        function checkSequence(event) {
-            const key = parseInt(event.key); // Convertir la touche en nombre
-            if (!isNaN(key)) {
-                enteredSequence.push(key);
-
-                // Garder seulement les dernières entrées de même longueur que la séquence requise
-                if (enteredSequence.length > requiredSequence.length) {
-                    enteredSequence.shift();
-                }
-
-                // Vérifier si la séquence est correcte
-                if (enteredSequence.join('') === requiredSequence.join('')) {
-                    // Générer plusieurs cœurs
-                    for (let i = 0; i < 30; i++) {
-                        createHeart();
-                    }
-                }
-            }
-        }
-
-        // Écouter les frappes de clavier
-        window.addEventListener('keydown', checkSequence);
-    </script>
-
 </body>
 </html>
