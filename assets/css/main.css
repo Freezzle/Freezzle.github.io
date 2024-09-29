@@ -285,6 +285,10 @@ footer, header, hgroup, menu, nav, section {
     padding: 3em 5em 3em 5em;
 }
 
+#main > .main#bienvenue {
+    padding: 3em 5em 0 5em;
+}
+
 #main > .main:first-child {
     border-top: 0;
 }
@@ -311,6 +315,10 @@ footer, header, hgroup, menu, nav, section {
         padding: 2em 4em 2em 4em;
     }
 
+    #main > .main#bienvenue {
+        padding: 2em 4em 0 4em;
+    }
+
     #main > .main > .image.main:first-child {
         margin: -4em 0 4em -4em;
         width: calc(100% + 8em);
@@ -322,6 +330,10 @@ footer, header, hgroup, menu, nav, section {
 
     #main > .main {
         padding: 2em 3em 2em 3em;
+    }
+
+    #main > .main#bienvenue {
+        padding: 2em 3em 0 3em;
     }
 
     #main > .main > .image.main:first-child {
@@ -337,6 +349,10 @@ footer, header, hgroup, menu, nav, section {
         padding: 1em 2em 1em 2em;
     }
 
+    #main > .main#bienvenue {
+        padding: 1em 2em 0 2em;
+    }
+
     #main > .main > .image.main:first-child {
         margin: -3em 0 2em -2em;
         width: calc(100% + 4em);
@@ -348,6 +364,10 @@ footer, header, hgroup, menu, nav, section {
 
     #main > .main {
         padding: 1em 1.5em 1em 1.5em;
+    }
+
+    #main > .main#bienvenue {
+        padding: 1.5em 1.5em 0 1.5em;
     }
 
     #main > .main > .image.main:first-child {
@@ -365,6 +385,10 @@ footer, header, hgroup, menu, nav, section {
 
     #main > .main {
         padding: 0.75em 1em 0.5em 1em;
+    }
+
+    #main > .main#bienvenue {
+        padding: 1em 1em 0 1em;
     }
 
     #main > .main > .image.main:first-child {
