@@ -36,8 +36,20 @@
 		j.src =
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 		f.parentNode.insertBefore(j, f);
-	})(window, document, 'script', 'dataLayer', 'GTM-TMSW5T78');</script>
+	})(window, document, 'script', 'dataLayer', 'GTM-TMSW5T78');
+	</script>
 	<!-- End Google Tag Manager -->
+	<script>
+		function loadScript(a) {
+			var b = document.getElementsByTagName("head")[0], c = document.createElement("script");
+			c.type = "text/javascript", c.src = "https://tracker.metricool.com/resources/be.js", c.onreadystatechange = a, c.onload = a, b.appendChild(c)
+		}
+		loadScript(function() {
+			beTracker.t({
+				hash: "c55cd4fc85a6a6a04582a1a4c9f963e7"
+			})
+		});
+	</script>
 </head>
 <body class="is-preload">
 	<!-- Google Tag Manager (noscript) -->
